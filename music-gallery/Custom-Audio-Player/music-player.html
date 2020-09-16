@@ -6,12 +6,12 @@
     <body>
         <div id="bg">
             <div id="blackLayer"></div>
-            <img src="Poster1.jpg"/>
+            <img src="pyro.jpeg"/>
         </div>
        
         <div id="main">
             <div id="image">
-                <img src="Poster1.jpg"/>
+                <img src="pyro.jpeg"/>
             </div>
             <div id="player">
                 <div id="songTitle">Demo</div>
@@ -30,9 +30,10 @@
     </body>
     <script type="text/javascript">
     
-        var songs = ["Song1.mp3","Song2.mp3","Song3.mp3"];
-        var poster = ["Poster1.jpg","Poster2.jpg","Poster3.jpg"];
-        
+        var songs = ["pyro.mp3", "Paranoid Android.mp3", "Bad Blood.mp3", "Daniel in the Den.mp3", "Flaws.mp3", "Get Home.mp3", "Icarus.mp3", "Laughter Lines.mp3", "Laura Palmer.mp3", "Oblivion.mp3", "Overjoyed.mp3", "Pompeii.mp3", "The Silence.mp3", "These Streets.mp3", "Things We Lost in the Fire.mp3", "Weight of Living, Pt. I.mp3", "Weight of Living, Pt. II.mp3", "breathe_(feat_colbie_caillat).mp3", "change.mp3", "come_in_with_the_rain.mp3", "fearless.mp3", "fifteen.mp3", "forever_and_always.mp3", "forever_and_always_(piano_version).mp3", "hey_stephen.mp3", "jump_then_fall.mp3", "love_story.mp3", "superstar.mp3", "tell_me_why.mp3","the_best_day.mp3", "the_other_side_of_the_door.mp3","the_way_i_loved_you.mp3", "untouchable.mp3", "white_horse.mp3", "you_belong_with_me.mp3", "youre_not_sorry.mp3", "An Act Of Kindness.mp3", "Blame.mp3", "Campus.mp3", "Fake It.mp3", "Four Walls (The Ballad Of Perry Smith).mp3", "Glory.mp3", "Good Grief.mp3", "Lethargy.mp3", "Oil On Water.mp3", "Power.mp3", "Send Them Off!.mp3", "Shame.mp3", "Snakes.mp3", "The Anchor.mp3", "The Currents.mp3", "Two Evils.mp3", "Warmth.mp3", "Way Beyond.mp3", "Winter Of Our Youth.mp3"]; 
+        console.log(songs.length);
+        var poster = ["pyro.jpeg", "ok-computer.jpg", "bad-blood.png","bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "bad-blood.png", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "fearless.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg", "wild-world.jpg"];
+        console.log(poster.length);
         var songTitle = document.getElementById("songTitle");
         var fillBar = document.getElementById("fill");
         
@@ -73,7 +74,7 @@
         function next(){
             
             currentSong++;
-            if(currentSong > 2){
+            if(currentSong > 55){
                 currentSong = 0;
             }
             playSong();
